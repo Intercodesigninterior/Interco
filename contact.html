@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interco - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">interco</div>
+      <nav>
+        <a href="index.html" >Accueil</a>
+        <a href="apropos.html" >À propos</a>
+        <a href="portfolio.html" >Portfolio</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h1>Parlons de votre projet</h1>
+      <div class="contact-box">
+
+        <form>
+          <label for="nom">Nom complet</label>
+          <input type="text" id="nom" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+
+          <label for="tel">Téléphone</label>
+          <input type="tel" id="tel">
+
+          <label for="type">Type de projet</label>
+          <select id="type">
+            <option>Villa</option>
+            <option>Appartement</option>
+            <option>Bureau</option>
+            <option>Autre</option>
+          </select>
+
+          <label for="msg">Message</label>
+          <textarea id="msg" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+
+        <div class="infos">
+          <h3>Adresse</h3>
+          <p>13 Avenue Hassan II, Agadir, Maroc</p>
+          <h3>Téléphone</h3>
+          <p>+212-605683007</p>
+          <h3>Email</h3>
+          <p>contact Intercodesign@gmail.com</p>
+          <h3>Horaires</h3>
+          <p>Lun – Ven : 9h00 – 18h00</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Interco. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
